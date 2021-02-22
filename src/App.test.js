@@ -6,3 +6,9 @@ import App from './App';
 
 Enzyme.configure({ adapter: new EnzymeAdapter() })
 
+test("renders without error", () => {}); 
+
+test("renders button", () => {});
+test("renders counter display", () => {}); 
+test("counter starts at 0", () => {});
+test("clicking on the button increments counter display", () => {}); 
